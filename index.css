@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    background-image: linear-gradient(pink, red);
+    width: 760px;
+    height: 800px;
+    margin-top: 20px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+
+}
+
+h3 {
+    position: relative;
+    top: 0;
+    left: 65%;
+    transform: translatex(100%);
+}
+
+.class1 img {
+    margin-top: 50px;
+    position: relative;
+    top: 0;
+    left: 235%;
+    transform: translatex(100%);
+    height: 40px;
+    width: 40px;
+}
+
+.box1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translatex(-95%);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 760px;
+    background-image: radial-gradient(rgb(245, 237, 128), rgb(40, 12, 101));
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box1 img {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    height: 100px;
+    margin-top: 30px;
+    width: 100px;
+    flex-wrap: wrap;
+
+}
+
+.box1>h2 {
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    top: 15%;
+    left: 0;
+    transform: translate(-20%);
+}
+
+.box2 {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    background-image: radial-gradient(rgb(245, 237, 128), rgb(40, 12, 101));
+    position: relative;
+    top: -85%;
+    left: 50%;
+    transform: translate(-10%);
+
+}
+
+.box2 img {
+    position: relative;
+    top: 20%;
+    left: 5%;
+    transform: translatey(-9%);
+    height: 100px;
+    width: 170px;
+}
+
+
+.box3 {
+    display: flex;
+    width: 400px;
+    height: 150px;
+    margin-top: 500px;
+    margin-left: -400px;
+    background-image: radial-gradient(rgb(245, 237, 128), rgb(40, 12, 101));
+    position: relative;
+    top: -115%;
+    left: 50%;
+    transform: translate(-10%);
+
+}
+
+.box3 img {
+    position: relative;
+    top: 20%;
+    left: 5%;
+    transform: translatey(-9%);
+    height: 100px;
+    width: 170px;
+}
+
+.box4 {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    margin-top: 800px;
+    margin-left: -400px;
+    background-image: radial-gradient(rgb(245, 237, 128), rgb(40, 12, 101));
+    position: relative;
+    top: -119%;
+    left: 50%;
+    transform: translate(-10%);
+
+}
+
+.box4 img {
+    position: relative;
+    top: 20%;
+    left: 5%;
+    transform: translatey(-9%);
+    height: 100px;
+    width: 170px;
+}
